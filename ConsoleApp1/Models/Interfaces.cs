@@ -25,6 +25,8 @@ namespace ConsoleApp1.Models
         }
         //metody pomocnicze do polaczenia z serwerem itp
     }
+
+
     public interface IDatabase
     {
         bool IsConnected { get; }
