@@ -9,15 +9,12 @@ namespace ConsoleApp1.Models
 
         public string Adress { get; set; }
 
-
-
     }
-
 
     public class User
     {
 
-       // private Person _person;
+        // private Person _person;
 
         private ISet<Order> _orders = new HashSet<Order>();
 
@@ -50,7 +47,7 @@ namespace ConsoleApp1.Models
 
         public User(Person person)
         {
-            FirstName = person.FirstName; 
+            FirstName = person.FirstName;
 
         }
 
